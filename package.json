@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build -m \"modify: Something changed\"",
+    "deploy": "gh-pages -d build -b gh-pages -m \"modify: Something updated\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
