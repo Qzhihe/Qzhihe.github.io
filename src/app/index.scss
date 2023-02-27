@@ -1,0 +1,26 @@
+.App {
+    text-align: center;
+}
+
+.bg-mask {
+    position: fixed;
+    z-index: -998;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: .3);
+}
+
+.blog__bg {
+    top: -1rem;
+    left: -1rem;
+    position: fixed;
+    z-index: -999;
+    width: 110%;
+    height: 110%;
+    filter: blur(.7rem);
+    background: url(https://w.wallhaven.cc/full/96/wallhaven-96w8e8.png);
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

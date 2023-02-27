@@ -1,0 +1,75 @@
+.is-center {
+    text-align: center;
+}
+
+.card-widget {
+    padding: 1.5rem 1rem;
+    border-radius: .5rem;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .layout {
+        width: 100%;
+        max-width: 100rem;
+        display: flex;
+        flex: 1 auto;
+        margin: 0 auto;
+        padding: 40px 15px;
+    
+        .left {
+            width: 26%;
+            margin-right: .5rem;
+
+            .author-info {
+                background-color: #ffff;
+
+                .avatar {
+                    width: 110px;
+                    height: 110px;
+                    margin: 0 auto;
+                    padding: 0 3px 6px 3px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .author-info__data {
+                    margin-top: .5rem;
+                }
+
+                .nickname {
+                    font-weight: 500;
+                    font-size: 2rem;
+                }
+
+                .description {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .right {
+            width: 74%;
+            margin-left: .5rem;
+
+            .post-item {
+                display: flex;
+                height: 20rem;
+                background-color: #ffff;
+                border-radius: .5rem;
+
+                &:not(:first-child) {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
