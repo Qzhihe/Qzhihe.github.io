@@ -1,6 +1,6 @@
 {
   "name": "qzhihe.github.io",
-  "homepage": "https://github.com/Qzhihe/Qzhihe.github.io.git",
+  "homepage": "https://qzhihe.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,10 +41,5 @@
     "gh-pages": "^5.0.0",
     "node-sass": "^7.0.3",
     "sass-loader": "^13.2.0"
-  },
-  "paths": {
-    "@src/*": [
-      "src/*"
-    ]
   }
 }
